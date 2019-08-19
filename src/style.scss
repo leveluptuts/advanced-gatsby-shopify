@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+// If need, change your variables before importing Bulma
+:root {
+  --purp: #524763;
+  --purp-20: #6a5c80;
+  --purp-60: #b8afc5;
+  --darkPurp: #373142;
+  --xtraPurp: #191324;
+  --grey: #d8d8d8;
+  --green: #cbe56c;
+  --green-20: #daed97;
+  --teal: #82d8d8;
+  --teal-20: #b1e7e7;
+  --red: #e54b4b;
+  --red-20: #f08484;
+  --pink: #cf256d;
+  --black: #333;
+  --black-20: #4f4f4f;
+  --black-40: #828282;
+  --black-60: #bdbdbd;
+  --white-60: #e0e0e0;
+  --white-40: #f2f2f2;
+  --white-20: #f5f4f6;
+  --white: #fff;
+
+  --syntaxYellow: #f0c05e;
+  --twitter: #00aced;
+  --facebook: #3b5998;
+  --google: #dd4b39;
+  --youtube: #bb0000;
+  --slack: #e8a723;
+
+  --bgColor: var(--purp);
+  --lineColor: var(--white-60);
+  --zebraBg: var(--white-40);
+
+  --sheetBg: var(--white);
+  --sheetHover: var(--white-20);
+  --sheetTextColor: var(--black);
+  --sheetShadow: 0px 0px 22px rgba(0, 0, 0, 0.4),
+    0px 0px 4px rgba(0, 0, 0, 0.25);
+  --pinnedColor: var(--darkPurp);
+  --cardBg: var(--white);
+
+  --cardRadius: 15px;
+  --buttonRadius: 15px;
+
+  /* Font Sizes */
+  --baseFontSize: 1rem;
+  --baseNavSize: 0.64rem;
+  --smallFontSize: 0.8rem;
+  --smallestFontSize: 0.512rem;
+
+  --xtra-big-ass-heading: 3.052rem;
+  --xtra-heading: 2.441rem;
+  --heading-one: 1.953rem;
+  --heading-two: 1.563rem;
+  --heading-three: 1.25rem;
+  --heading-four: var(--baseFontSize);
+  --heading-five: var(--smallFontSize);
+  --heading-six: 0.64rem;
+  --heading-seven: var(--smallestFontSize);
+
+  /* Fonts */
+  --headingFont: "Poppins", sans-serif;
+  --bodyFont: "Raleway", sans-serif;
+
+  /* Z-Index */
+  --headerLevel: 10;
+  --highestLevel: 100;
+
+  /* Elevation */
+  --elevation-0: inset 0 7px 9px -7px rgba(0, 0, 0, 0.7);
+  --elevation-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --elevation-2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  --elevation-3: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  --elevation-4: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  --elevation-5: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+  /* Margin */
+  --margin: 2.75rem 0 1rem;
+}
+
+@import "~bulma/bulma.sass";
